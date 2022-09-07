@@ -1,0 +1,82 @@
+body::before {
+  content:"";
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -1;
+background-color: rgb(12, 168, 168);
+background-image:
+url("./images/ash-edmonds-XZ0xN0hmpi4-unsplash.jpg");
+background-size: cover; 
+background-repeat: no-repeat;
+background-position: center;
+}
+#description{
+color: rgba(1, 1, 22, 0.8);
+font-family:'Times New Roman', Times, serif ;
+font-size:large;
+
+}
+#title{
+  font-size:xx-large;
+  color: rgba(1, 1, 22, 0.8);
+  border-style:outset;
+  border-color:rgba(230, 230, 241, 0.445);
+}
+header {
+  display: flex;
+  flex-direction: column;
+  color: rgb(225, 225, 250);
+  font-size: 30px;
+  align-items: center;
+}
+#survey-form {
+  background-color: rgba(1, 1, 22, 0.8);
+  color: rgb(225, 225, 250);
+  margin: 10px 20%;
+  padding: 3rem 3rem;
+  border-radius: 1rem;
+  height:auto;
+  width: auto;
+}
+@media screen (max-width: 1076px){
+  #survey-form{ 
+    padding:  20rem 10rem;
+ }
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.label1{
+ display: inline;
+ margin: 20px;
+ margin-left: 2px;
+ font-style:oblique;
+}
+.label2{
+
+  margin-top: 30px;
+}
+textarea{
+  color: aliceblue;
+  width: 100%;
+  background-color: var(--color-green);
+  padding: 0.625rem;
+  min-height: 120px;
+  max-width: 100%;
+  min-width: 100%;
+  margin-top: 8px;
+}
+#submit{
+  color:aliceblue;
+  background-color:  rgba(35, 255, 255, 0.3);
+  border: none;
+  width: 100%;
+  padding: 0,75rem;
+  margin-top: 5px;
+  cursor: pointer;
+}

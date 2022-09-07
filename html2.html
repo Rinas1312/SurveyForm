@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>TechMania</title>
+    <link rel="stylesheet" href="css2.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">TechMania</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <main>
+      <form id="survey-form" class="form-group">
+        <label for="name" id="name-label">Please Enter Your Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" required />
+
+        <label for="email" id="email-label">Email</label>
+        <input id="email" type="email" placeholder="Enter your Email" required />
+
+        <label for="number" id="number-label">Age(optional)</label>
+        <input
+          id="number"
+          type="number"
+          placeholder="Enter your Age"
+          min="15"
+          max="120"
+          required
+        />
+
+        <label for="dropdown">Choose Which One:</label>
+        <select id="dropdown">
+          <option>Iphone</opttion>
+          <option>Samsung</option>
+          <option>Xiaomi</option>
+        </select>
+<div class="label1">
+        <label>Choose Which One:</label>
+        <label for="airpods">Airpods</label>
+        <input type="radio" name="radio-group" id="airpods" value="0"/>
+        <label for="earbuds">Earbuds</label>
+        <input type="radio" name="radio-group" id="earbuds" value="1" />
+      
+<div class="label2">
+        <label>iOS or Android:</label>
+        <label for="ios">iOS</label>
+        <input type="checkbox" id="ios" value="1" />
+        <label for="android">Android</label>
+        <input type="checkbox" id="android" value="0" />
+      
+        </div>
+      </div>
+        <textarea>Please enter your additional comments...</textarea>
+
+        <input id="submit" type="submit" />
+      </form>
+    </main>
+  </body>
+</html>
